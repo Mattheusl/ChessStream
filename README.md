@@ -1,32 +1,60 @@
-# React + TypeScript + Vite
+## Chess Stream
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React + TypeScript project that uses the Chess API to monitor chess streamers who are currently live.
 
-Currently, two official plugins are available:
+The application displays streamer information such as username, avatar, live status, streaming platforms, and links to their live streams and Chess.com profiles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Technologies:
 
-## React Compiler
+- React
+- TypeScript
+- Vite
+- CSS
+- Fetch API
+- Chess API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Features:
 
-## Expanding the Oxlint configuration
+- Display live chess streamers
+- Show streamer avatar and username
+- Display available streaming platforms
+- Links to live streams and Chess.com profiles
+- Refresh the streamer list
+- Loading and error states
+- Responsive card-based layout
+- React Concepts
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+# This project was built to practice:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- useState
+- useEffect
+- Props
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+# Components
+
+- .map()
+- key
+- Conditional rendering
+- Async/Await
+- API requests
+- Installation
+
+# Clone the repository:
+
+ git clone https://github.com/Mattheusl/chess-stream.git
+
+# Install the dependencies:
+
+ npm install
+
+# Run the development server:
+
+ npm run dev
+
+ Build
+
+ npm run build
+
+# Purpose:
+
+This project was created as a practical exercise to learn React, TypeScript, API consumption, and dynamic interfaces.
