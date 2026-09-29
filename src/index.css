@@ -1,0 +1,49 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #25312a;
+  background: #f3f6ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #25312a;
+  --muted: #66736a;
+  --line: #dce4d9;
+  --green-deep: #315b43;
+  --green: #d8f083;
+  --live: #ee5b50;
+  --paper: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 86% 4%, rgb(216 240 131 / 26%), transparent 34%),
+    repeating-linear-gradient(135deg, transparent 0 46px, rgb(49 91 67 / 2%) 47px 48px),
+    #f3f6ef;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: var(--ink);
+  background: var(--green);
+}
